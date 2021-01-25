@@ -1,0 +1,33 @@
+#Difference
+def difference (a,b)
+  global res
+  if a > b:
+    res = a - b
+  else:
+    res = b - a
+  res = 0
+  
+  seq = ''
+  arg = 
+  print()
+  
+  def Zero2N(n):
+    global seq
+    for i in range (0,n):
+    seq = seq + str(i) + '' 
+  zero2N(arg)
+  
+  #Palindrome
+  
+  def reverse(n):
+  rn = ''
+  for i in str(n)
+    rn = i + rn
+  return int(rn)
+  
+  def isPalindrome():
+    if n == reverse(n):
+      return True
+    return False
+    
+  
