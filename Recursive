@@ -1,0 +1,62 @@
+def sumUpTo(n):
+  if n <= 0:
+    return n 
+  else:
+    temp = sumUpTo(n-1)
+      return temp + n
+      
+      
+def repeatStar(n):
+  if n < = 0 
+    return ''
+  else:
+    temp = repeatStar(n-1)
+    s = '*' + str(temp)
+    return s
+    
+def sum(n):
+  if n <= 0 
+    return 0
+else:
+  return n + sum(n-1)
+
+ans = sum(4)
+print(ans)
+
+def prodUpTo(n):
+  if n <= 0:
+    return 0
+   else:
+   temp = prodUpTo(n*(n-1))
+   return temp
+   
+def count(a,b):
+  if a > b:
+    return ''
+  else:
+    partial = count(a + 1, b)
+    ret = str(a) + partial
+      return ret
+      
+  def count (a,b):
+    if a > b:
+    return ''
+   else:
+   partial = count (a, b - 1)
+   ret = partial + str(b)
+   return ret
+   
+ def count (a,b):
+  if a > b:
+    return ''
+  elif b <= a:
+    return str(a)
+  else:
+    partial = count (a+1, b-1)
+    ret = str(a) + partial + str(b)
+    return ret
+    
+    
+  
+ 
+  
