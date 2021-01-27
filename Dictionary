@@ -1,0 +1,34 @@
+paint_price = {'white': 8.75, 'black': 8.0, 'yellow': 7.70, 'blue': 9.50}
+
+print(paint_price['white'])
+
+paint_price['white'] = 11
+print(paint_price)
+
+paint_price['green'] = 12
+print(paint_price)
+
+paint_price.keys()
+paint_price.values()
+
+for value in paint_price.values():
+    print(value)
+
+for a, b in paint_price.items():
+    print(a, b)
+
+print(paint_price)
+
+for a, b in paint_price.items():
+    print(a, b)
+
+if 'white' in paint_price:
+    print("Yes! 'white' key exists")
+else: 
+    print("No! 'white' key doesn't exist")
+
+paint_price['purple'] = 123
+print(paint_price)
+
+paint_price.pop('white')
+print(paint_price)
