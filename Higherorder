@@ -1,0 +1,12 @@
+def f(a):
+  if a == 0:
+    return ''
+  return str(a) + g(a-2)
+  
+ def g(b):
+  if b == 0:
+    return ';
+  return str(b) + f(b+1)
+  
+  
+  
