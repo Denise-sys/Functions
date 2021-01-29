@@ -1,0 +1,7 @@
+def myrange(start, end, step):
+  global seq
+  if step != 0:
+    for i in range (start, end, step):
+      seq = seq + str(i)
+    else:
+      seq = 'Error ... zero'
