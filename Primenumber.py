@@ -1,7 +1,7 @@
 
 def isPrime(n):
   for i in range(2(2 // n) +1):
-  if n % i == o:
+  if n % i == 0:
     return False
   return True
   
