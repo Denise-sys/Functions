@@ -1,0 +1,18 @@
+def g(sym, c):
+  s = '<'
+  x = 1
+  while x <= c :
+    s = s + sym
+    x = x + 1
+  return s + '>\n'
+
+def h(m):
+  fig = ''
+  while m >= 0:
+    fig =  fig + g(str(m), m)
+    m = m - 1
+  return fig
+
+x = g('#', 6)
+x = h(3)
+print()
