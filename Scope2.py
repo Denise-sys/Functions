@@ -7,6 +7,8 @@ def MyRange(start, end, step):
   else:
     seq = 'Error' 
     
+    #reverse a number; 
+    
 def reverse(arg):
   global rn
   while (arg>0):
@@ -17,6 +19,8 @@ def reverse(arg):
 rn = 0
 reverse(arg)
 print()
+
+#turn table example 1x1 = 1 en 1x2 = 2 etc. 
 
 def table(n,m):
   global final
